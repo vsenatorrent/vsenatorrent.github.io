@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="ru"> <!--<![endif]-->
+
+<html lang="en">
+
+<head>
+ <meta charset="UTF-8">
+ <title>Portfolio</title>
+ <meta name="description" content="">
+ 
+  <!-- Fonts Loader from _fonts.css (HTML5 LocalStorage) -->
+  <script>!function(){function e(e,t,n){e.addEventListener?e.addEventListener(t,n,!1):e.attachEvent&&e.attachEvent("on"+t,n)}function t(e){return window.localStorage&&localStorage.font_css_cache&&localStorage.font_css_cache_file===e}function n(){if(window.localStorage&&window.XMLHttpRequest)if(t(o))a(localStorage.font_css_cache);else{var n=new XMLHttpRequest;n.open("GET",o,!0),e(n,"load",function(){4===n.readyState&&(a(n.responseText),localStorage.font_css_cache=n.responseText,localStorage.font_css_cache_file=o)}),n.send()}else{var c=document.createElement("link");c.href=o,c.rel="stylesheet",c.type="text/css",document.getElementsByTagName("head")[0].appendChild(c),document.cookie="font_css_cache"}}function a(e){var t=document.createElement("style");t.innerHTML=e,document.getElementsByTagName("head")[0].appendChild(t)}var o="css/_fonts.css";window.localStorage&&localStorage.font_css_cache||document.cookie.indexOf("font_css_cache")>-1?n():e(window,"load",n)}();</script>
+  
+  <!-- Load CSS Compilled without JS -->
+  <noscript><link rel="stylesheet" href="css/main.css"></noscript>
+  <noscript><link rel="stylesheet" href="css/media.css"></noscript>
+  
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <link rel="shortcut icon" type="image" href="img/fav.ico">
+  
+  <!-- Header CSS (First Sections of Website: compress & paste after release from _header.css here) -->
+  <style>
+    *{padding:0;margin:0;box-sizing:border-box}* .container{text-align:left}* p{margin:0}* h1{font-size:4.5em}* h2{font-size:1.5em}* h3{font-size:.9em}* a{text-decoration:none}* a:hover{text-decoration:none}* li{list-style:none}body{font-family:Open Sans,sans-serif}header{width:100%;background-color:currentColor;padding:2em 0}header .nav-trigger{position:absolute;clip:rect(0,0,0,0)}header .nav-trigger:checked ~ nav{display:block}header label{position:absolute;left:9px;top:5px;z-index:2;height:30px;width:30px;cursor:pointer;color:#fff;background-color:#CC5200;transform:rotate(90deg);letter-spacing:-4px;font-size:18px}header nav{position:fixed;background-color:currentColor;z-index:1;text-align:center;padding:1em 0;top:0;width:100%}header nav ul{margin:0;}header nav ul li{width:auto;display:inline-block;padding:0 13px}header nav ul li a{color:#fff;font-size:.7em;text-transform:uppercase;font-weight:700;letter-spacing:2px}header nav ul li a.active{color:#ff4500}header .banner{text-align:center;margin-top:10em;margin-bottom:12em}header .banner h1{width:100%;position:static;letter-spacing:0px;font-weight:400;text-shadow: 0 1px 0 #fff;color:#fff;line-height:60px;margin-bottom:.5em}header .banner h3{line-height:25px;width:40%;margin:0 auto;color:#A8A8A8}header .scrolldown{text-align:center}header .scrolldown a{width:30px;height:30px;background-color:#fff;border-radius:50%;position:relative;display:inline-block}header .scrolldown a:hover{background-color:#11ABB0;cursor:pointer}header .scrolldown a:after{content:'';position:absolute;background:url(img/arrow.png) center no-repeat;width:20px;height:20px;top:50%;left:50%;transform:translate(-50%,-50%)}@media only screen and (max-width: 480px){html{font-size:.7em}header label{display:block!important}header nav{position:fixed;width:95%;background-color:#1f2024;left:50%;top:9%;transform:translate(-50%);padding:20px 0;display:none}header nav ul{padding:0 10px}header nav ul li{text-align:left;width:95%;border-bottom:1px solid #2D2E34;padding:10px 5px}header .banner h3{width:90%}}
+  </style>
+</head>
+
+<body>
+  <header id="home">
+    <input type="checkbox" id="nav-trigger" class="nav-trigger">
+    <label for="nav-trigger" class="none">||||</label>
+    <nav>
+      <ul>
+        <li><a href="#home" class="active">home</a></li>
+        <li><a href="#about">about</a></li>
+        <li><a href="#skills">skills</a></li>
+        <li><a href="#works">works</a></li>
+        <li><a href="#contact">contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="banner">
+      <h1>I'm Asdf Asdf.</h1>
+      <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae consequatur reprehenderit fugiat modi itaque explicabo nihil laudantium officiis.</h3>
+    </div>
+    <div class="scrolldown">
+      <a href="#about"></a>
+    </div>
+  </header>
+  <section class="about" id="about">
+    <div class="container">
+      <div class="photo">
+        <img src="img/profilepic.jpg" alt="photo">
+      </div>
+      <div class="info">
+        <h2>About Me</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum iure quisquam eaque, doloremque quas fuga ullam cumque eum quibusdam ipsam quia commodi eius odit dolorem laudantium facere error consectetur nulla, et iusto possimus aperiam beatae unde. Repellendus harum quis ullam ex a iste facere nisi, eaque officiis reiciendis vero ipsam impedit quidem iusto cum quod, commodi sint modi. Officiis, minima id fugit vel dolores, explicabo aliquid necessitatibus totam molestiae officia ad. Explicabo dolorem, necessitatibus laudantium pariatur distinctio ut deleniti sunt?</p>
+      </div>
+    </div>
+  </section>
+  <section class="skills" id="skills">
+    <div class="container">
+      <div class="category">
+        <h2><span>Skills</span></h2>
+      </div>
+      <div class="info">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla non quod nobis minima magni cumque voluptate, error, labore laborum, reprehenderit esse amet architecto! Dicta perspiciatis numquam quibusdam eum accusamus, sequi qui, voluptatibus vero molestiae possimus inventore! Illo, rem ipsum doloremque!</p>
+        <ul>
+          <li>HTML
+            <div></div>
+          </li>
+          <li>CSS
+            <div></div>
+          </li>
+          <li>Javascript
+            <div></div>
+          </li>
+          <li>Jquery
+            <div></div>
+          </li>
+          <li>Sass
+            <div></div>
+          </li>
+          <li>Gulp
+            <div></div>
+          </li>
+          <li>Git
+            <div></div>
+          </li>
+          <li>Adobe Photoshop
+            <div></div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <section class="works" id="works">
+    <ul>
+      <li>
+        <a href="https://vsenatorrent.github.io/space/ ">
+          <img src="img/w1.png" alt="work1">
+          <div class="modal">
+            <span class="name">Space Exploration</span>
+            <br>
+            <span class="category">Responsive website</span>
+            <br>
+            <span class="view">+</span>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <img src="img/w2.png" alt="work2">
+          <div class="modal">
+            <span class="name">Pastry</span>
+            <br>
+            <span class="category">Responsive website</span>
+            <br>
+            <span class="view">+</span>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="# ">
+          <img src="img/w3.png" alt="work3">
+          <div class="modal ">
+            <span class="name">Mogo</span>
+            <br>
+            <span class="category">Responsive website</span>
+            <br>
+            <span class="view">+</span>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="# ">
+          <img src="img/w4.png" alt="work4">
+          <div class="modal">
+            <span class="name">Escape</span>
+            <br>
+            <span class="category">Responsive website</span>
+            <br>
+            <span class="view">+</span>
+          </div>
+        </a>
+      </li>
+    </ul>
+  </section>
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="logo ">
+          <img src="img/msg.png" alt="message_ico">
+          <h2><span>Get in touch.</span></h2>
+        </div>
+        <div class="info">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime earum necessitatibus nemo commodi inventore a quae hic, dolores natus recusandae illo laborum id facere nam laudantium quisquam ex perspiciatis laboriosam fuga cupiditate mollitia adipisci aliquam reiciendis! Consectetur nam iusto aliquam in similique illo mollitia tempora eveniet ea quam possimus facere reiciendis, enim voluptate illum, maxime nisi ullam sunt eaque. Voluptas autem quod eaque repudiandae officiis earum perferendis natus iusto, facere reiciendis consequuntur est obcaecati libero sapiente velit! Impedit, aut libero.</p>
+        </div>
+      </div>
+      <form action="post">
+        <div>
+          <label for="name">Name <span>*</span>       </label>
+          <input type="text" id="name">
+        </div>
+        <div>
+          <label for="name">Email <span>*</span>
+          </label>
+          <input type="text" id="name">
+        </div>
+        <div>
+          <label for="area">Message <span>*</span>
+          </label>
+          <textarea name="area" id="area" cols="20" rows="15"></textarea>
+        </div>
+        <br>
+        <div>
+          <input type="submit" value="Submit">
+        </div>
+      </form>
+    </div>
+  </section>
+  
+  <!--[if lt IE 9]>
+	<script src="js/es5-shim.min.js"></script>
+	<script src="js/html5shiv.min.js"></script>
+	<script src="js/html5shiv-printshiv.min.js"></script>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+	
+  	<!-- Load CSS -->
+	<script>
+		function loadCSS(hf) {
+			var ms=document.createElement("link");ms.rel="stylesheet";
+			ms.href=hf;document.getElementsByTagName("head")[0].appendChild(ms);
+		}
+		loadCSS("css/main.css");                //User Styles: Main
+		loadCSS("css/media.css");               //User Styles: Media
+	</script>
+
+  
+  <!-- Load Scripts -->
+  <script>var scr = {"scripts":[
+      {"src" : "js/jquery-3.2.1.min.js", "async" : false},
+      {"src" : "js/jquery.changeActiveNav.min.js", "async" : false},
+      {"src" : "js/main.js", "async" : false}
+      ]};!function(t,n,r){"use strict";var c=function(t){if("[object Array]"!==Object.prototype.toString.call(t))return!1;for(var r=0;r<t.length;r++){var c=n.createElement("script"),e=t[r];c.src=e.src,c.async=e.async,n.body.appendChild(c)}return!0};t.addEventListener?t.addEventListener("load",function(){c(r.scripts);},!1):t.attachEvent?t.attachEvent("onload",function(){c(r.scripts)}):t.onload=function(){c(r.scripts)}}(window,document,scr);
+  </script>
+</body>
+
+</html>

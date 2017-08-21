@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="ru"> <!--<![endif]-->
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Space Exploration</title>
+  <meta name="description" content="">
+  
+    <!-- Fonts Loader from _fonts.css (HTML5 LocalStorage) -->
+  <script>!function(){function e(e,t,n){e.addEventListener?e.addEventListener(t,n,!1):e.attachEvent&&e.attachEvent("on"+t,n)}function t(e){return window.localStorage&&localStorage.font_css_cache&&localStorage.font_css_cache_file===e}function n(){if(window.localStorage&&window.XMLHttpRequest)if(t(o))a(localStorage.font_css_cache);else{var n=new XMLHttpRequest;n.open("GET",o,!0),e(n,"load",function(){4===n.readyState&&(a(n.responseText),localStorage.font_css_cache=n.responseText,localStorage.font_css_cache_file=o)}),n.send()}else{var c=document.createElement("link");c.href=o,c.rel="stylesheet",c.type="text/css",document.getElementsByTagName("head")[0].appendChild(c),document.cookie="font_css_cache"}}function a(e){var t=document.createElement("style");t.innerHTML=e,document.getElementsByTagName("head")[0].appendChild(t)}var o="css/_fonts.css";window.localStorage&&localStorage.font_css_cache||document.cookie.indexOf("font_css_cache")>-1?n():e(window,"load",n)}();</script>
+  
+    <!-- Load CSS Compilled without JS -->
+  <noscript><link rel="stylesheet" href="css/main.css"></noscript>
+  <noscript><link rel="stylesheet" href="css/media.css"></noscript>
+  
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <link rel="shortcut icon" type="image" href="img/fav.ico">
+  
+  <style>
+     .container { margin: 50px auto 40px auto; width: 600px; text-align: center; }
+
+    a { color: #4183c4; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    h1 { width: 800px; position:relative; left: -100px; letter-spacing: -1px; line-height: 60px; font-size: 60px; font-weight: 100; margin: 0px 0 50px 0; text-shadow: 0 1px 0 #fff; }
+    p { color: rgba(0, 0, 0, 0.5); margin: 20px 0; line-height: 1.6; }
+
+    ul { list-style: none; margin: 25px 0; padding: 0; }
+    li { display: table-cell; font-weight: bold; width: 1%; }
+</style>
+  
+ <!-- Header CSS (First Sections of Website: compress & paste after release from _header.css here) -->
+ <style>
+   *{margin:0;padding:0;box-sizing:border-box}* .container{margin: 0;width:auto;text-align:left}* h1{width:auto;position:static;text-shadow:none; margin: auto; letter-spacing:0}* p{margin: auto;line-height:normal}* a:hover{text-decoration:none}* ul{margin:0 0}* li {width:auto;display:block}header{background:url(img/bg1.png) center center no-repeat;background-size:cover;padding-top:2.48em;padding-bottom:10.75em;width:100%}header .container{margin:0 auto;width:80%}header .container .logo{padding-top:.6em;float:left;color:#fff}header .container .logo .sp{border:.1em solid #fff;color:#22ddbc;font-weight:700;padding:.44em;margin-right:.71em}header .container .logo .platforms{cursor:pointer;font-weight:700}header .container .hd{margin-bottom:13.39em}header .container .hd:after{content:'';display:table;clear:both}header .container nav{float:right}header .container nav ul .listItem{display:inline-block;font-size:.83em;margin-right:1.19em}header .container nav ul .listItem:last-child{border:.044em solid #b8bbc4;border-radius:.5em;position:relative;color:#b8bbc4;padding:.67em 2.38em .67em .89em;margin-right:0}header .container nav ul .listItem:last-child:hover ul{display:block}header .container nav ul .listItem:last-child .subList{margin-top:-12px;position:absolute;left:50%;top:140%;transform:translate(-50%);display:none;border:1px solid #b8bbc4;border-radius:.5em}header .container nav ul .listItem:last-child .subList .subListItem{list-style:none;padding:5px 17px}header .container nav ul .listItem:last-child .subList .subListItem:first-child{border-top-left-radius:.5em;border-top-right-radius:.5em}header .container nav ul .listItem:last-child .subList .subListItem:last-child{border-bottom-left-radius:.5em;border-bottom-right-radius:.5em}header .container nav ul .listItem:last-child .subList .subListItem:hover{background-color:#000}header .container nav ul .listItem:last-child .subList .subListItem a{color:#b8bbc4;text-transform:capitalize}header .container nav ul .listItem:last-child:after{content:'';position:absolute;background:url(img/down-arrow.svg) center center no-repeat;background-size:100%;right:10%;top:56%;transform:translate(0,-50%);width:14px;height:16px}header .container nav ul .listItem:hover:not(:last-child){border-bottom:1px solid #22ddbc;cursor:pointer;color:#fff}header .container nav ul .listItem a{color:#b8bbc4;text-decoration:none}header .container nav ul .listItem a.active{border-bottom:1px solid #22ddbc;cursor:pointer;color:#fff}header .container .nav-trigger{position:absolute;clip:rect(0,0,0,0)}header .container label[for=nav-trigger]{position:fixed;left:-20px;top:-2px;z-index:2;height:40px;width:40px;cursor:pointer;background-size:contain;color:#fff;transform:rotate(90deg)}header .container .nav-trigger+label~nav{transition:left .2s}header .container .nav-trigger:checked+label{left:80px}header .container .nav-trigger:checked~nav{left:0}header .container .intro{text-align:center}header .container .intro h1{font-size:4.75em;color:#22ddbc;font-weight:700;margin-bottom:0.5em}header .container .intro .descr{color:#d6d6d9;font-size:.95em;margin-bottom:7.58em}header .container .intro .start,header .timeline .card .date{text-transform:uppercase;color:#fff}header .container .intro .start{font-size:.83em;border-bottom:.089em solid #22ddbc;display:inline-block;margin-bottom:13.5em;text-decoration:none}header .timeline{background:url(img/timeline.png) center no-repeat;height:250px;background-size:100%;font-size:.95em;position:relative;width:100%}header .timeline .card{position:absolute}header .timeline .june2016{top:0;left:7%;color:#28a895}header .timeline .july2020{top:67%;left:8.2%;color:#22ddbc}header .timeline .january2100{top:67%;left:25.7%;color:#48bdc0}header .timeline .august2300{top:67%;left:54.7%;color:#8a85c8}header .timeline .february2534{top:2%;left:77.4%;color:#bd59ce}@media only screen and (max-width:650px){header{padding-bottom:0}header .container nav{text-align:left;float:none;position:fixed;top:0;left:-100px;background-color:#000;height:100%;width:100px;z-index:1}header .container nav ul{padding:15px}header .container nav ul .listItem{display:block;margin-bottom:5px}header .container nav ul .listItem:last-child{border-radius:0;border:none;padding:0}header .container nav ul .listItem:last-child .subList{border:none}header .container nav ul .listItem:last-child:after{right:20%;top:54%;background-size:50%}header .container nav ul .listItem:last-child ul:before{display:none}header .container .logo{float:none}header .container .hd{text-align:center}header .container label{display:block}header .container .intro .start{margin-bottom:6em}header .timeline .june2016{top:27%}header .timeline .july2020{width:50px;top:55%}header .timeline .january2100{width:100px;top:57%;left:27%}header .timeline .august2300{top:57%}header .timeline .february2534{left:78%;top:11%}}@media only screen and (max-width:768px){header .timeline .june2016{top:17%}header .timeline .july2020{top:63%}}@media only screen and (max-width:992px){header .container nav ul .listItem:last-child:after{background-size:80%;top:50%}header .timeline .february2534{top:18%}}</style>
+</head>
+
+<body ontouchstart="">
+  <header>
+    <div class="container">
+      <div class="hd">
+        <div class="logo">
+          <span class="sp">SP</span>
+          <span class="platforms">SpacePlatforms</span>
+        </div>
+        <input type="checkbox" id="nav-trigger" class="nav-trigger">
+        <label for="nav-trigger" class="none">||||</label>
+        <nav>
+          <ul>
+            <li class="listItem"><a href="index.html" class="active">Home</a></li>
+            <li class="listItem"><a href="#">Missions</a></li>
+            <li class="listItem"><a href="#">Research</a></li>
+            <li class="listItem"><a href="#">Explorers</a></li>
+            <li class="listItem"><a href="#">Our philosophy</a></li>
+            <li class="listItem">Explore SP
+              <ul class="subList">
+                <li class="subListItem"><a href="#">conception</a></li>
+                <li class="subListItem"><a href="#">environment</a></li>
+                <li class="subListItem"><a href="#">expense</a></li>
+                <li class="subListItem"><a href="#">intention</a></li>
+                <li class="subListItem"><a href="#">cognition</a></li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+
+      </div>
+      <div class="intro">
+        <h1>Space exploration</h1>
+        <p class="descr">Space exploration is the ongoing discovery and exploration <br> of celestial structures in outer space </p>
+        <a href="#" class="start">Start exploring</a>
+      </div>
+    </div>
+    <div class="timeline">
+      <div class="june2016 card">
+        <p class="date">june 2016</p>
+        <p class="descr">First attempts to launch a <br> Mars exploration mission</p>
+      </div>
+      <div class="july2020 card">
+        <p class="date">july 2020</p>
+        <p class="descr">Landed on Mars, colony <br> in place</p>
+      </div>
+      <div class="january2100 card">
+        <p class="date">january 2100</p>
+        <p class="descr">First signs of extraterrestrial <br> intelligence found</p>
+      </div>
+      <div class="august2300 card">
+        <p class="date">august 2300</p>
+        <p class="descr">Aliens have conquered our <br> galaxy</p>
+      </div>
+      <div class="february2534 card">
+        <p class="date">february 2534</p>
+        <p class="descr">Humans have decided to <br> whoop some alien asses</p>
+      </div>
+
+    </div>
+  </header>
+  <section class="analytics">
+    <p class="header">analytics</p>
+    <h2 class="descr">You should take a quick look <br> at our data</h2>
+    <p class="btnDescr">We want to show you how the process works. <br> Display data for:</p>
+    <select name="monthList">
+<option value="october">october</option>
+<option value="november">november</option>
+<option value="december">december</option>
+<option value="january">january</option>
+</select>
+    <div class="stat">
+      <img src="img/analytics.png" alt="">
+      <ul>
+        <li>Oct1</li>
+        <li>Oct2</li>
+        <li>Oct3</li>
+        <li>Oct4</li>
+        <li>Oct5</li>
+        <li>Oct6</li>
+        <li>Oct7</li>
+        <li>Oct8</li>
+        <li>Oct9</li>
+        <li>Oct10</li>
+        <li>Oct11</li>
+        <li>Oct12</li>
+        <li>Oct13</li>
+      </ul>
+    </div>
+    <div class="downloads">
+      <div class="info">Get a quick info about us</div>
+
+      <ul class="loadList">
+        <li><a href="#">Company profile <br> <span>Download PDF</span></a></li>
+        <li><a href="#">Annual report <br> <span>Download PDF</span></a></li>
+      </ul>
+    </div>
+  </section>
+  <section class="product">
+    <h4 class="header">product overview</h4>
+    <p class="descr">This is something about <br> numbers</p>
+    <p class="statDescr">Whale is the common name for various marine mammals <br> of the order Cetacea. The term whale sometimes refers to <br> all cetaceans, but more often it excludes.</p>
+    <ul>
+      <li>Weight
+        <div></div>
+      </li>
+      <li>Landing
+        <div></div>
+      </li>
+      <li>Economy
+        <div></div>
+      </li>
+      <li>Software
+        <div></div>
+      </li>
+    </ul>
+  </section>
+  <section class="graph">
+    <div class="container">
+      <p>Display</p>
+      <select name="characteristics">
+<option value="weight">weight</option>
+<option value="economy">economy</option>
+<option value="landing">landing</option>
+<option value="software">software</option>
+<option value="height">height</option>
+<option value="balance">balance</option>
+<option value="capacity">capacity</option>
+<option value="load">load</option>
+</select>
+      <img src="img/graph.png" alt="graph">
+      <ul>
+        <li>weight</li>
+        <li>economy</li>
+        <li>landing</li>
+        <li>software</li>
+        <li>height</li>
+        <li>balance</li>
+        <li>capacity</li>
+        <li>load</li>
+      </ul>
+    </div>
+  </section>
+  <section class="releases">
+    <p class="header">press releases</p>
+    <h3 class="descr">Whales range in size from <br> the blue whale to red <br> epic whale</h3>
+    <ul>
+      <li>
+        <div class="headerInfo">Whale is the common name for various marine mammals of the order Cetacea.</div>
+        <div class="date">04
+          <div>feb</div>
+        </div>
+        <div class="info">The term whale sometimes refers to all cetaceans, but more often it excludes dolphins and porpoises, which are smaller members of the suborder Odontoceti.</div>
+        <button class="read">read more</button>
+        <div class="modal none">
+         <div class="close">&times;</div>
+          <div class="container">
+            <div class="modalHeader">Whale is the common name for various marine mammals of the order Cetacea.</div>
+            <div class="modalDate">04.02.2017 18:36
+        </div>
+          <div class="modalDescr">The term whale sometimes refers to all cetaceans, but more often it excludes dolphins and porpoises, which are smaller members of the suborder Odontoceti.
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem eum cum maxime tempore inventore sint dignissimos quia ipsa eveniet, aliquid minima maiores error animi corporis impedit commodi quasi, at deserunt harum, architecto atque. Natus cum, adipisci quae fugit sapiente nam dolorum id. Maiores mollitia dolorem, ipsam odit iusto sapiente unde!</div>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="headerInfo">Whales range in size from the blue whale, the largest animal known to have ever existed</div>
+        <div class="date">20
+          <div>jan</div>
+        </div>
+        <div class="info">Whales are long-lived, humpback whales living for up to 77 years, while bowhead whales may live for more than a century.</div>
+        <button class="read">read more</button>
+        <div class="modal none">
+         <div class="close">&times;</div>
+          <div class="container">
+            <div class="modalHeader">Whale is the common name for various marine mammals of the order Cetacea.</div>
+            <div class="modalDate">20.01.2017 10:44
+        </div>
+          <div class="modalDescr">The term whale sometimes refers to all cetaceans, but more often it excludes dolphins and porpoises, which are smaller members of the suborder Odontoceti.
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem eum cum maxime tempore inventore sint dignissimos quia ipsa eveniet, aliquid.</div>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="headerInfo">Whales range in size from the blue whale, the largest animal known to have ever existed</div>
+        <div class="date">23
+          <div>jan</div>
+        </div>
+        <div class="info">Whales are long-lived, humpback whales living for up to 77 years, while bowhead whales may live for more than a century.</div>
+        <button class="read">read more</button>
+        <div class="modal none">
+         <div class="close">&times;</div>
+          <div class="container">
+            <div class="modalHeader">Whale is the common name for various marine mammals of the order Cetacea.</div>
+            <div class="modalDate">23.01.2017 12:07
+        </div>
+          <div class="modalDescr">The term whale sometimes refers to all cetaceans, but more often it excludes dolphins and porpoises, which are smaller members of the suborder Odontoceti.
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem eum cum maxime tempore inventore sint dignissimos quia ipsa eveniet, aliquid minima maiores error animi corporis impedit commodi quasi, at deserunt harum, architecto atque. Natus cum, adipisci quae fugit sapiente nam dolorum id. Maiores mollitia dolorem, ipsam odit iusto sapiente unde!
+          The term whale sometimes refers to all cetaceans, but more often it excludes dolphins and porpoises, which are smaller members of the suborder Odontoceti.
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem eum cum maxime tempore inventore sint dignissimos quia ipsa eveniet, aliquid minima maiores error animi corporis impedit commodi quasi, at deserunt harum, architecto atque. Natus cum, adipisci quae fugit sapiente nam dolorum id. Maiores mollitia dolorem, ipsam odit iusto sapiente unde!</div>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </section>
+  <section class="category">
+<ul class="mainList">
+  <li>
+    <div><a href="index.html"><span>Ho</span>me</a></div>
+    <ul class="subList">
+      <li><a href="#">Timeline</a></li>
+      <li><a href="#">Analytics</a></li>
+      <li><a href="#">Product overview</a></li>
+      <li><a href="#">Press releases</a></li>
+    </ul>
+  </li>
+  <li>
+    <div><a href="#"><span>Re</span>search</a></div>
+    <ul class="subList">
+      <li><a href="#">Furion drive</a></li>
+      <li><a href="#">Quantum drive</a></li>
+      <li><a href="#">Advanced materials</a></li>
+      <li><a href="#">Optics</a></li>
+      <li><a href="#">Navigation systems</a></li>
+    </ul>
+  </li>
+  <li>
+    <div><a href="#"><span>Ex</span>plorers</a></div>
+    <ul class="subList">
+      <li><a href="#">Search database</a></li>
+      <li><a href="#">Current</a></li>
+      <li><a href="#">Archive</a></li>
+    </ul>
+  </li>
+  <li>
+    <div><a href="#"><span>Ou</span>r philosophy</a></div>
+    <ul class="subList">
+      <li><a href="#">Mission statement</a></li>
+      <li><a href="#">Our values</a></li>
+      <li><a href="#">Core beliefs</a></li>
+      <li><a href="#">Our plans</a></li>
+    </ul>
+  </li>
+</ul>
+  </section>
+  <section class="copyright">
+    <div class="container">
+      <div class="logo">
+        <span class="sp">SP</span>
+        <span class="platforms">SpacePlatforms is the leader of space exploration industry</span>
+      </div>
+      <div class="terms">
+        <span>Space explorers code of hours</span>
+        <span><a href="#">Terms and conditions</a></span>
+
+      </div>
+      <div class="scroll"></div>
+    </div>
+  </section>
+  
+    <!--[if lt IE 9]>
+	<script src="js/es5-shim.min.js"></script>
+	<script src="js/html5shiv.min.js"></script>
+	<script src="js/html5shiv-printshiv.min.js"></script>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+
+  <!-- Load CSS -->
+	<script>
+		function loadCSS(hf) {
+			var ms=document.createElement("link");ms.rel="stylesheet";
+			ms.href=hf;document.getElementsByTagName("head")[0].appendChild(ms);
+		}
+		loadCSS("css/main.css");                //User Styles: Main
+		loadCSS("css/media.css");               //User Styles: Media
+	</script>
+	
+	<!-- Load Scripts -->
+  <script>var scr = {"scripts":[
+      {"src" : "js/main.js", "async" : false}
+      ]};!function(t,n,r){"use strict";var c=function(t){if("[object Array]"!==Object.prototype.toString.call(t))return!1;for(var r=0;r<t.length;r++){var c=n.createElement("script"),e=t[r];c.src=e.src,c.async=e.async,n.body.appendChild(c)}return!0};t.addEventListener?t.addEventListener("load",function(){c(r.scripts);},!1):t.attachEvent?t.attachEvent("onload",function(){c(r.scripts)}):t.onload=function(){c(r.scripts)}}(window,document,scr);
+  </script>
+</body>
+
+</html>
