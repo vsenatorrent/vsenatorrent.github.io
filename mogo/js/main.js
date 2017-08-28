@@ -1,0 +1,1 @@
+$(".srch").click(()=>{$(".float").fadeToggle()});
